@@ -13,8 +13,8 @@ export default {
     change_back: function () {
       document.body[`style`][`background`] = `blue`;
     },
-    change_pink: function () {
-      document.querySelector(`p`)[`style`][`color`] = `pink`;
+    change_pink(details) {
+      details[`target`][`style`][`color`] = `pink`;
     },
   },
   data() {
